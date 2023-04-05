@@ -16,6 +16,6 @@ jobs:
       - name: run Lighthouse CI
         run: |
           npm install -g @lhci/cli@0.11.x
-          lhci autorun --collect.staticDistDir=index.html
+          lhci autorun --collect.staticDistDir=C:\Users\pande\OneDrive\Desktop\workflow light house\.github\workflows\index.html
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
