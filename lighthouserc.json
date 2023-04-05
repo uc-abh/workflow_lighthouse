@@ -9,7 +9,7 @@
             }
         },
         "collect": {
-            "staticDistDir": "./dist"
+            "staticDistDir": "index.html"
         }
     }
 }
